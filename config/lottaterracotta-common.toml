@@ -1,0 +1,25 @@
+
+[general]
+	#Enable terracotta slabs
+	enableSlabs = true
+	#Enable terracotta stairs
+	enableStairs = true
+	#Enable terracotta walls
+	enableWalls = true
+	#Enable terracotta buttons
+	enableButtons = true
+	#Enable terracotta pressure plates
+	enablePressurePlates = true
+	#Enable terracotta fences
+	enableFences = true
+	#Enable terracotta ladders
+	enableLadders = true
+	#Enable terracotta signs
+	enableSigns = true
+	#Enable terracotta levers
+	enableLevers = true
+	#Enable terracotta vertical slabs
+	enableVerticalSlabs = true
+	#Enable terracotta tiles
+	enableTiles = true
+

@@ -1,0 +1,25 @@
+{
+	"mod": "sushigocrafting",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"water_ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"tuna": {
+						// Do not edit this name
+						"name": "tuna",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					},
+					"shrimp": {
+						// Do not edit this name
+						"name": "shrimp",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"mod": "pneumaticcraft",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"programmable_controller": {
+						// Do not edit this name
+						"name": "programmable_controller",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"logistics_drone": {
+						// Do not edit this name
+						"name": "logistics_drone",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"guard_drone": {
+						// Do not edit this name
+						"name": "guard_drone",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"amadrone": {
+						// Do not edit this name
+						"name": "amadrone",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"collector_drone": {
+						// Do not edit this name
+						"name": "collector_drone",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"harvesting_drone": {
+						// Do not edit this name
+						"name": "harvesting_drone",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"drone": {
+						// Do not edit this name
+						"name": "drone",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			}
+		}
+	}
+}

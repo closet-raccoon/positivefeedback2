@@ -1,0 +1,31 @@
+{
+	"mod": "rftoolsdim",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"dimensional_blob_rare": {
+						// Do not edit this name
+						"name": "dimensional_blob_rare",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"dimensional_blob_common": {
+						// Do not edit this name
+						"name": "dimensional_blob_common",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"dimensional_blob_legendary": {
+						// Do not edit this name
+						"name": "dimensional_blob_legendary",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

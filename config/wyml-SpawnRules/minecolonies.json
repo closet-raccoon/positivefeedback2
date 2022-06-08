@@ -1,0 +1,126 @@
+{
+	"mod": "minecolonies",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"citizen": {
+						// Do not edit this name
+						"name": "citizen",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"mercenary": {
+						// Do not edit this name
+						"name": "mercenary",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"visitor": {
+						// Do not edit this name
+						"name": "visitor",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"pirate": {
+						// Do not edit this name
+						"name": "pirate",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"amazonspearman": {
+						// Do not edit this name
+						"name": "amazonspearman",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"barbarian": {
+						// Do not edit this name
+						"name": "barbarian",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"norsemenchief": {
+						// Do not edit this name
+						"name": "norsemenchief",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"norsemenarcher": {
+						// Do not edit this name
+						"name": "norsemenarcher",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"mummy": {
+						// Do not edit this name
+						"name": "mummy",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"shieldmaiden": {
+						// Do not edit this name
+						"name": "shieldmaiden",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"archerbarbarian": {
+						// Do not edit this name
+						"name": "archerbarbarian",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"archerpirate": {
+						// Do not edit this name
+						"name": "archerpirate",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"archermummy": {
+						// Do not edit this name
+						"name": "archermummy",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"amazon": {
+						// Do not edit this name
+						"name": "amazon",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"pharao": {
+						// Do not edit this name
+						"name": "pharao",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"amazonchief": {
+						// Do not edit this name
+						"name": "amazonchief",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"chiefpirate": {
+						// Do not edit this name
+						"name": "chiefpirate",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"chiefbarbarian": {
+						// Do not edit this name
+						"name": "chiefbarbarian",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}
