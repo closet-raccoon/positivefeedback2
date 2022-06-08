@@ -78,9 +78,10 @@ onEvent('recipes', event => {
     }
     
     
-    function replace(forge_tag,item_id){  //Function inspired from FTB team! but unfortunatly theres really no other way of doing this or i would have writen it myself!
+    function replace({},forge_tag,item_id){  //Function inspired from FTB team! but unfortunatly theres really no other way of doing this or i would have writen it myself!
+        console.error("Dont use replace")
         event.replaceInput({},forge_tag,forge_tag)
-        event.replaceOutput({},forge_tag,item_id)
+        //forge_tag,item_id)
     }
     function removeids(remove_id){
         for (const v in remove_id) {
@@ -98,14 +99,15 @@ onEvent('recipes', event => {
 
             //ingots
             if (metal.ingot !== null){
-                replace('#forge:ingots/'+n,metal.ingot)
+                event.replaceOutput({},'#forge:ingots/'+n,metal.ingot)
             }
             else{console.warn(n+" doesnt have metal.ingot, This may cause issues!")}
 
 
             //ingotblocks
             if (metal.ingotBlock !== null){
-                replace('#forge:storage_blocks/'+n,metal.ingotBlock)
+                event.replaceOutput({},'#forge:storage_blocks/'+n,metal.ingotBlock)
+                
                 event.remove({output: metal.ingotBlock,type:"minecraft:crafting"})
                 event.shapeless(metal.ingotBlock,["9x #forge:ingots/"+n,])
 
@@ -116,21 +118,21 @@ onEvent('recipes', event => {
 
             //raw
             if (metal.raw !== null){
-                replace('#forge:raw_materials/'+n,metal.raw)
+                event.replaceOutput({},'#forge:raw_materials/'+n,metal.raw)
             }
             else{console.info(n+" doesnt have metal.raw")}
 
             //rawBlock
             if (metal.rawBlock !== null){
-                replace('#forge:storage_blocks/'+n,metal.rawBlock)
-                event.remove({output: metal.rawBlock,input: "9x "+metal.raw,type:"minecraft:crafting"})
-                event.shapeless(metal.rawBlock,["9x #forge:raw/"+n,])
+                event.replaceOutput({},'#forge:storage_blocks/'+n,metal.rawBlock)
+                event.remove({output: metal.rawBlock,input: ["#forge:raw_materials/"+n] ,type:"minecraft:crafting"})
+                event.shapeless(metal.rawBlock,["9x #forge:raw_materials/"+n,])
             }
             else{console.info(n+" doesnt have metal.rawBlock")}
 
             //nugget
             if (metal.nugget !== null){
-                replace('#forge:nuggets/'+n,metal.nugget)
+                event.replaceOutput({},'#forge:nuggets/'+n,metal.nugget)
                 event.remove({output: "9x "+metal.nugget, input:'#forge:ingots/'+n,type:"minecraft:crafting"})
                 event.shapeless(metal.nugget,["#forge:ingots/"+n,])
             }
@@ -145,7 +147,7 @@ onEvent('recipes', event => {
                     "immersiveengineering:crafting/raw_hammercrushing_"+n,
                     "ftbic:macerating/raw_materals/"+n+"_to_dust",
                 ])
-                replace('#forge:dusts/'+n,metal.dust,)
+                event.replaceOutput({},'#forge:dusts/'+n,metal.dust,)
             }
             else{console.info(n+" doesnt have metal.dust")}
 
@@ -158,24 +160,24 @@ onEvent('recipes', event => {
                 event.recipes.ftbic.rolling(metal.plate, ["#forge:ingots/"+metal.name])
                 event.recipes.createPressing(metal.plate, ["#forge:ingots/"+metal.name])
 
-                replace('#forge:plates/'+n,metal.plate)
+                event.replaceOutput({},'#forge:plates/'+n,metal.plate)
             }
             else{console.info(n+" doesnt have metal.plate")}
 
             //gear
             if (metal.gear !== null){
-                replace('#forge:gears/'+n,metal.gear)
+                event.replaceOutput({},'#forge:gears/'+n,metal.gear)
             }
             else{console.info(n+" doesnt have metal.gear")}
 
             //rod
             if (metal.rod !== null){
-                replace('#forge:rods/'+n,metal.rod)
+                event.replaceOutput({},'#forge:rods/'+n,metal.rod)
             }
             else{console.info(n+" doesnt have metal.rod")}
         })
 
-        replace('#forge:storage_blocks/charcoal',"thermal:charcoal_block")
+        event.replaceOutput({},'#forge:storage_blocks/charcoal',"thermal:charcoal_block")
         return
     }
     unify(genTable(premetals))

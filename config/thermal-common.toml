@@ -75,7 +75,7 @@
 
 		[World.Ores.Cinnabar]
 			#Max number of veins per chunk; set to 0 to disable.
-			#Range: 0 ~ 6
+			#Range: 0 ~ 64
 			"Vein Count" = 0
 			#Max size of the vein.
 			#Range: 1 ~ 64

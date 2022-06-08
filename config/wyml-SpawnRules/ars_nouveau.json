@@ -96,6 +96,12 @@
 						// Maximum amount of this mob that can spawn per chunk
 						"limit": 10
 					},
+					"summon_skeleton": {
+						// Do not edit this name
+						"name": "summon_skeleton",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
 					"vexing_weald_walker": {
 						// Do not edit this name
 						"name": "vexing_weald_walker",
