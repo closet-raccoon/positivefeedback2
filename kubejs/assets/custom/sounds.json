@@ -1,0 +1,9 @@
+{
+  "startup": {
+    "sounds": [
+      {
+        "name": "custom:startup"
+      }
+    ]
+  }
+}
