@@ -9,8 +9,8 @@ journeymap/
 local/
 crash-reports/
 config/byg
-fancymenu-data/
-fancymenu-setups/
+fancymenu_data/
+fancymenu_setups/
 patchouli_books/
 schematics/
 downloads/
