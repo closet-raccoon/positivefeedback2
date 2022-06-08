@@ -1,0 +1,17 @@
+type = customizablemenus
+
+net.minecraft.client.gui.screens.WinScreen {
+}
+
+net.minecraft.client.gui.screens.worldselection.CreateWorldScreen {
+}
+
+net.minecraft.client.gui.screens.ChatScreen {
+}
+
+net.minecraft.client.gui.screens.PauseScreen {
+}
+
+net.minecraft.client.gui.screens.TitleScreen {
+}
+

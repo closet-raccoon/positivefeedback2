@@ -1,0 +1,8 @@
+type = panorama
+
+panorama-meta {
+  name = glow_cave
+  speed = 1.0
+  fov = 85.0
+  angle = 25.0
+}
