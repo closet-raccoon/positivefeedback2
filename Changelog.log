@@ -1,0 +1,14 @@
+1. Removed 'Crafttweaker' and 'JEITeaker'
+2. Removed 'ItShallNotTick', it doesnt seem to help prefomance that much and the nature of the mod might cause issues with mods that use ticking entites
+3. Downgraded 'Applied Energistics 2 Wireless Terminals' to fix server issue
+4. Added 'Chat heads', 'Croptopia', 'YUNGs Extras (Forge)', 'Industrial Forgoing', 'Twilight Forest', 'Toast Controll'
+5. Added 'Rubidium' and 'Radon' NEEDS TO BE REMOVED BEFORE USING OPTIFINE!
+6. Updated all mods
+7. Fixed empty tag when making rawBlocks
+8. Removed Twilight Forest Uncrafting
+9. Fixes to world gen
+10. Fixed gear/plate crafting
+11. Slightly increased minecolonies builders build and dig speed
+12. Made explosions not damage coloniests in minecolony chunks
+13. Unified Salt a bit to help with crafting, also added vanillabean tag to vanilla
+14. Hid most ores and ingots that are removed from ecosystem, from jei
