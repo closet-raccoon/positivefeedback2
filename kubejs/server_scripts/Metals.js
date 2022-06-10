@@ -10,6 +10,7 @@ Credit:
 
 console.setDebugEnabled(false)
 onEvent('recipes', event => {
+    let gearcenter = "minecraft:iron_ingot"
     const default_fill = "alltheores" //change this and fill to change what mod your using to fill the rest of the table.  
     //Note though that in the gen table function it using alltheores and default minecraft style item ids you might need to change that to your prefered mod or add overrides in the table manually
     let premetals = [
@@ -25,13 +26,17 @@ onEvent('recipes', event => {
 		{ name: "iron",         fill: "alltheores",      ingot:"minecraft:iron_ingot",      ingotBlock:"minecraft:iron_block",      raw:"minecraft:raw_iron",   rawBlock:"minecraft:raw_iron_block",    nugget:"minecraft:iron_nugget",   },
 		{ name: "lead",	        fill: "alltheores",},
 		{ name: "nickel",       fill: "alltheores",},
-		{ name: "osmium",       fill: "alltheores",},
+		{ name: "osmium",       fill: "mekanism",       ingot:"mekanism:ingot_osmium", ingotBlock:"mekanism:block_osmium", dust: "mekanism:dust_osmium", rawBlock: "mekanism:block_raw_osmium"},
 		{ name: "silver",       fill: "alltheores",},
 		{ name: "steel",        fill: "alltheores",},	
 		{ name: "tin",          fill: "alltheores",},
 		{ name: "uranium",      fill: "alltheores",},
 		{ name: "zinc",         fill: "alltheores",},
-        { name: "netherite",    fill: "alltheores",      ingot:"minecraft:netherite_ingot", ingotBlock:"minecraft:netherite_block", raw:null,                   rawBlock:null,                          nugget:"createdeco:netherite_nugget", dust:"alltheores:netherite_dust", gear:"thermal:netherite_gear", }
+        { name: "brass",        fill: "alltheores",},
+        { name: "enderium",     fill: "thermal",         rod: "alltheores:enderium_rod",},
+        { name: "lumium",       fill: "thermal",         rod: "alltheores:lumium_rod",},
+        { name: "netherite",    fill: "alltheores",      ingot:"minecraft:netherite_ingot", ingotBlock:"minecraft:netherite_block", raw:null,                   rawBlock:null,                          nugget:"createdeco:netherite_nugget", dust:"alltheores:netherite_dust", gear:"thermal:netherite_gear", },
+        { name: "signalum",     fill: "thermal",         rod: "alltheores:signalum_rod",},
     ]
     console.info("Pre-table defined")
 
@@ -55,7 +60,7 @@ onEvent('recipes', event => {
             metal.gear = metal.gear             || r+n+"_gear"
             metal.rod = metal.rod               || r+n+"_rod"
 
-            console.info(`${metal.name}: generated with replacement ${metal.fill}.`)
+            console.info(n+': generated with replacement'+g)
         })
 
         //check if all items exsist, and if doesn't print to log and delete it
@@ -94,6 +99,23 @@ onEvent('recipes', event => {
     //name, ingot, ingotBlock, raw, rawBlock, nugget, dust, plate, gear, rod,
     function unify(metals){         // You'll need to change this if your using a diffrent mod for unifiying
         console.info("Info below about 'Doesn't have' are not errors and should not be reported: ")
+
+        //all
+        event.remove({id: "thermal:parts/lapis_gear"})
+        event.shaped("thermal:lapis_gear",[
+            " i ",
+            "ici",
+            " i ",
+        ],{i: "#forge:gems/lapis", c: gearcenter})
+        //event.remove({output: "#forge:gears"})
+        //event.remove({output: "#forge:plates"})
+
+
+        event.remove({output: "alltheores:osmium_rod"})
+        event.remove({output: "alltheores:osmium_gear"})
+        event.remove({output: "alltheores:osmium_plate"})
+
+
         metals.forEach (metal =>{ // Itterating through each metal in metals table
             let n = metal.name
 
@@ -153,20 +175,28 @@ onEvent('recipes', event => {
 
             //plate
             if (metal.plate !== null){
-                event.remove({id: metal.plate});
-                event.remove({id: "ftbic:rolling/ingots/"+metals.name+"_to_"+metal.name+"_plate"})
+                event.remove({output: "#forge:plates/"+n})
+                event.remove({id: "ftbic:rolling/ingots/"+metals.name+"_to_"+n+"_plate"})
                 event.remove({id: "minecraft:rolling/"+metals.name})
                 event.remove({id: "createaddition:rolling/"+metals.name})
-                event.recipes.ftbic.rolling(metal.plate, ["#forge:ingots/"+metal.name])
-                event.recipes.createPressing(metal.plate, ["#forge:ingots/"+metal.name])
+                event.recipes.ftbic.rolling(metal.plate, ["#forge:ingots/"+n])
+                event.recipes.createPressing(metal.plate, ["#forge:ingots/"+n])
+                event.shapeless(metal.plate,[metal.ingot,"immersiveengineering:hammer"])
 
-                event.replaceOutput({},'#forge:plates/'+n,metal.plate)
+                //event.replaceOutput({},'#forge:plates/'+n,metal.plate)
             }
             else{console.info(n+" doesnt have metal.plate")}
 
             //gear
             if (metal.gear !== null){
-                event.replaceOutput({},'#forge:gears/'+n,metal.gear)
+                event.remove({output: "#forge:gears/"+n})
+                event.shaped(metal.gear,[
+                    ' i ',
+                    'ici',
+                    ' i ',
+                ], {i: metal.ingot, c: gearcenter})
+
+                //event.replaceOutput({},'#forge:gears/'+n,metal.gear)
             }
             else{console.info(n+" doesnt have metal.gear")}
 

@@ -23,3 +23,5 @@ emojiful
 o_prof
 usercache.json
 usernamecache.json
+backups/
+backups/backups.json
