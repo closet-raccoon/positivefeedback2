@@ -135,6 +135,7 @@ onEvent('jei.hide.items', event => {
 		"alltheores:osmium_rod",
 		"alltheores:osmium_gear",
 		"alltheores:osmium_plate",
+		"#alltheores:ore_hammer",
 	]
 	event.hide(unify)
 })

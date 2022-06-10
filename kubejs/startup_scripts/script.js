@@ -9,16 +9,16 @@ onEvent('block.registry', event => {
 	// event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
 })
 
+onEvent('tags.items', event => {
+    event.add('forge:crops/vanillabean', 'croptopia:vanilla')
+    event.add('forge:crops/sweat_berries','minecraft:sweet_berries')
+    event.add('forge:fruits',/forge\/fruits\/\b.{1,}/)
+
+})
+
+
 onEvent("worldgen.remove", event => {
-	console.info("\n")
-	event.printFeatures('local_modifications','minecraft:forest')
-	console.info("\n")
-	event.printFeatures('underground_ores','minecraft:forest')
-	console.info("\n")
-	event.printFeatures('underground_decoration','minecraft:forest')
-	console.info("\n")
-	event.printFeatures('top_layer_modification','minecraft:forest')
-	console.info("\n")
+
 	
 	event.removeOres(ores => {
 		ores.blocks = [
@@ -32,10 +32,6 @@ onEvent("worldgen.remove", event => {
 			"ftbic:lead_ore",
 			"ftbic:tin_ore",
 			"ftbic:uranium_ore",
-			"immersiveengineering:deepslate_ore_nickel",
-			"immersiveengineering:deepslate_ore_silver",
-			"immersiveengineering:ore_nickel",
-			"immersiveengineering:ore_silver",
 		]
 	})
 

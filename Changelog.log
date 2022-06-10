@@ -6,4 +6,9 @@
 6. Updated all mods
 7. Fixed empty tag when making rawBlocks
 8. Removed Twilight Forest Uncrafting
-
+9. Fixes to world gen
+10. Fixed gear/plate crafting
+11. Slightly increased minecolonies builders build and dig speed
+12. Made explosions not damage coloniests in minecolony chunks
+13. Unified Salt a bit to help with crafting, also added vanillabean tag to vanilla
+14. Hid most ores and ingots that are removed from ecosystem, from jei
