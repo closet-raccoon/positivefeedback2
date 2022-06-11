@@ -219,7 +219,7 @@ onEvent('recipes', event => {
                 
                 //hammer plates
                     let hammer = Item.of("immersiveengineering:hammer").ignoreNBT()
-                   // event.shapeless(metal.plate,["#forge:ingots/"+n,hammer]).damageItem(hammer)
+                   event.shapeless(metal.plate,["#forge:ingots/"+n,hammer])
 
             }
             else{ console.info(n+" doesnt have metal.plate") }
@@ -250,7 +250,7 @@ onEvent('recipes', event => {
 
                 //crafting tables
                     let hammer = Item.of("immersiveengineering:hammer").ignoreNBT()
-                    event.shapeless("2x "+metal.rod,["2x "+fingot,Item.of("immersiveengineering:hammer").ignoreNBT()]).damageItem(Item.of("immersiveengineering:hammer").ignoreNBT())
+                    event.shapeless("2x "+metal.rod,["2x "+fingot,Item.of("immersiveengineering:hammer").ignoreNBT()])
                 
                 //machines
                     event.recipes.ftbic.extruding("2x "+metal.rod, [fingot])
