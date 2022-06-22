@@ -1,0 +1,19 @@
+{
+    "type":"immersiveengineering:mineral_mix",
+    "ores":[
+        {
+            "chance":0.8,
+            "output":{"item":"minecraft:coal_ore"}
+        },
+        {
+            "chance":0.2,
+            "output":{"tag":"forge:dusts/sulfur"}
+        }
+    ],
+    "dimensions":[
+        "minecraft:overworld",
+        "jamd:mining"
+    ],
+    "weight":25,
+    "fail_chance":0.05
+}

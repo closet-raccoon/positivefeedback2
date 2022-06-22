@@ -1,0 +1,13 @@
+{
+    "type":"immersiveengineering:mineral_mix",
+    "ores":[
+        {"chance":0.7,"output":{"item":"alltheores:uranium_ore"}},
+        {"chance":0.3,"output":{"item":"alltheores:lead_ore"}}
+    ],
+    "dimensions":[
+        "minecraft:overworld",
+        "jamd:mining"
+    ],
+    "weight":10,
+    "fail_chance":0.15
+}

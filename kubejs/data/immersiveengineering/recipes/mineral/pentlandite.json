@@ -1,0 +1,14 @@
+{
+    "type":"immersiveengineering:mineral_mix",
+    "ores":[
+        {"chance":0.35,"output":{"item":"minecraft:iron_ore"}},
+        {"chance":0.35,"output":{"item":"alltheores:nickel_ore"}},
+        {"chance":0.3,"output":{"tag":"forge:dusts/sulfur"}}
+    ],
+    "dimensions":[
+        "minecraft:overworld",
+        "jamd:mining"
+    ],
+    "weight":25,
+    "fail_chance":0.05
+}
