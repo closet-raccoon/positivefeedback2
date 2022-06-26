@@ -3,7 +3,7 @@
     "ores":[
         {"chance":0.35,"output":{"item":"minecraft:iron_ore"}},
         {"chance":0.35,"output":{"item":"alltheores:nickel_ore"}},
-        {"chance":0.3,"output":{"tag":"forge:dusts/sulfur"}}
+        {"chance":0.3,"output":{"item":"thermal:sulfur_dust"}}
     ],
     "dimensions":[
         "minecraft:overworld",

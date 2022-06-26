@@ -8,6 +8,6 @@
         "minecraft:overworld",
         "jamd:mining"
     ],
-    "weight":10,
+    "weight":5,
     "fail_chance":0.15
 }

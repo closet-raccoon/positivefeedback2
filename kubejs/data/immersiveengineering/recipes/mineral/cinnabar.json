@@ -2,7 +2,7 @@
     "type":"immersiveengineering:mineral_mix",
     "ores":[
         {"chance":0.6,"output":{"item":"minecraft:redstone_ore"}},
-        {"chance":0.4,"output":{"tag":"forge:dusts/sulfur"}}
+        {"chance":0.4,"output":{"item":"thermal:sulfur_dust"}}
     ],
     "dimensions":[
         "minecraft:overworld",
