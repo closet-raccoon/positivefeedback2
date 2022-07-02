@@ -206,7 +206,7 @@ onEvent('recipes', event => {
             if (metal.plate !== null){
                 
                 //removing all other ways of making gears
-                    event.remove({output: "#forge:plates/"+n})
+                    event.remove({output: "#forge:plates/"+n, not: { id: "create:sequenced_assembly/precision_mechanism" } })
                     event.remove({id: "ftbic:rolling/ingots/"+metals.name+"_to_"+n+"_plate"})
                     event.remove({id: "minecraft:rolling/"+metals.name})
                     event.remove({id: "createaddition:rolling/"+metals.name})
