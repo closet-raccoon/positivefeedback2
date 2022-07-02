@@ -1,0 +1,28 @@
+{
+	"type": {
+		"ultrawarm": false,
+		"natural": true,
+		"piglin_safe": false,
+		"respawn_anchor_works": true,
+		"bed_works": false,
+		"has_raids": false,
+		"has_skylight": false,
+		"has_ceiling": true,
+		"coordinate_scale": 1,
+		"ambient_light": 0.1,
+		"logical_height": 256,
+		"effects": "minecraft:overworld",
+		"infiniburn": "minecraft:infiniburn_nether",
+		"min_y": -64,
+		"height": 300
+	},
+	"generator": {
+		"type": "minecraft:noise",
+		"settings":"minecraft:caves",
+		"biome_source":{
+			"type":"multi_noise",
+			"preset":"overworld"
+		}
+	}
+}
+  

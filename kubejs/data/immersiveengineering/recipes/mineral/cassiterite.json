@@ -1,0 +1,14 @@
+{"type":"immersiveengineering:mineral_mix",
+    "ores":[
+        {
+            "chance":1.0,
+            "output":{"item":"alltheores:tin_ore"}
+        }
+    ],    
+    "dimensions":[
+        "minecraft:overworld",
+        "jamd:mining"
+    ],
+    "weight":20,
+    "fail_chance":0.05
+}

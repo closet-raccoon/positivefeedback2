@@ -1,0 +1,19 @@
+{
+    "type":"immersiveengineering:mineral_mix",
+    "ores":[
+        {
+            "chance":0.3,
+            "output":{"item":"minecraft:emerald_ore"}
+        },
+        {
+            "chance":0.7,
+            "output":{"item":"minecraft:prismarine"}
+        }
+    ],
+    "dimensions":[
+        "minecraft:overworld",
+        "jamd:mining"
+    ],
+    "weight":3,
+    "fail_chance":0.2
+}

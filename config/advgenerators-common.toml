@@ -135,7 +135,7 @@
 		[Modules.Turbines.Tier1]
 			#Maximum FE generated per tick
 			#Range: > 1
-			MaxFEPerTick = 100
+			MaxFEPerTick = 150
 			#Maximum FE generated per tick
 			#Range: 0.0 ~ 100.0
 			Inertia = 1.0
@@ -144,7 +144,7 @@
 		[Modules.Turbines.Tier2]
 			#Maximum FE generated per tick
 			#Range: > 1
-			MaxFEPerTick = 150
+			MaxFEPerTick = 225
 			#Maximum FE generated per tick
 			#Range: 0.0 ~ 100.0
 			Inertia = 1.1
@@ -153,7 +153,7 @@
 		[Modules.Turbines.Tier3]
 			#Maximum FE generated per tick
 			#Range: > 1
-			MaxFEPerTick = 250
+			MaxFEPerTick = 375
 			#Maximum FE generated per tick
 			#Range: 0.0 ~ 100.0
 			Inertia = 1.2
@@ -162,7 +162,7 @@
 		[Modules.Turbines.Tier4]
 			#Maximum FE generated per tick
 			#Range: > 1
-			MaxFEPerTick = 500
+			MaxFEPerTick = 750
 			#Maximum FE generated per tick
 			#Range: 0.0 ~ 100.0
 			Inertia = 1.25
@@ -171,7 +171,7 @@
 		[Modules.Turbines.Tier5]
 			#Maximum FE generated per tick
 			#Range: > 1
-			MaxFEPerTick = 1000
+			MaxFEPerTick = 1500
 			#Maximum FE generated per tick
 			#Range: 0.0 ~ 100.0
 			Inertia = 1.4

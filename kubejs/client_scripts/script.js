@@ -125,7 +125,7 @@ onEvent('jei.hide.items', event => {
 		"ftbic:enderium_rod",
 		"ftbic:aluminum_rod",
 		"ftbic:iridium_rod",
-		"ftbic:uranium_rod",
+		"f tbic:uranium_rod",
 		"ftbic:lead_rod",
 		"ftbic:tin_rod",
 		"createaddition:brass_rod",
@@ -135,7 +135,7 @@ onEvent('jei.hide.items', event => {
 		"alltheores:osmium_rod",
 		"alltheores:osmium_gear",
 		"alltheores:osmium_plate",
-		"#alltheores:ore_hammer",
+		/^alltheores:.+_ore_hammer$/,
 	]
 	event.hide(unify)
 })

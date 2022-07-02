@@ -1,0 +1,20 @@
+{
+    "type":"immersiveengineering:mineral_mix",
+    "ores":[
+        {"chance":0.5,"output":{"tag":"forge:ores/tungsten"}},
+        {"chance":0.5,"output":{"item":"minecraft:iron_ore"}}
+    ],
+    "dimensions":[
+        "minecraft:overworld",
+        "jamd:mining"
+    ],
+    "conditions":[
+        {
+            "value":{"tag":"forge:ores/tungsten",
+            "type":"forge:tag_empty"},
+            "type":"forge:not"
+        }
+    ],
+    "weight":5,
+    "fail_chance":0.1
+}

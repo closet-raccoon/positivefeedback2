@@ -1,0 +1,25 @@
+{
+    "type":"immersiveengineering:mineral_mix",
+    "ores":[
+        {
+            "chance":0.5,
+            "output":{"item":"alltheores:platinum_ore"}
+        },
+        {
+            "chance":0.5,
+            "output":{"item":"alltheores:nickel_ore"}
+        }
+    ],
+    "dimensions":[
+        "minecraft:overworld",
+        "jamd:mining"
+    ],
+    "conditions":[
+        {
+            "value":{"tag":"forge:ores/platinum", "type":"forge:tag_empty"},
+            "type":"forge:not"
+        }
+    ],
+    "weight":5,
+    "fail_chance":0.1
+}
