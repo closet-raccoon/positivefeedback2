@@ -250,7 +250,6 @@ onEvent('recipes', event => {
                 //crafting tables
                     let hammer = Item.of("immersiveengineering:hammer").ignoreNBT()
                     event.shapeless("2x "+metal.rod,["2x "+fingot,hammer])
-                    
                 //machines
                     event.recipes.ftbic.extruding("2x "+metal.rod, [fingot])
                     event.recipes.thermalPress("4x "+metal.rod, ["2x "+fingot,"thermal:press_packing_2x2_die",])
