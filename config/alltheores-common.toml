@@ -78,10 +78,10 @@
 	[spawntuning.aluminum]
 		#Aluminum generates no lower than X blocks above world BOTTOM
 		#Range: -64 ~ 320
-		aluminum_min_y = 50
+		aluminum_min_y = -64
 		#Aluminum generates no higher than X blocks above world BOTTOM
 		#Range: 0 ~ 320
-		aluminum_max_y = 120
+		aluminum_max_y = 320
 		#Aluminum deposit size(number of ores)
 		#Range: 1 ~ 64
 		aluminum_deposit_size = 7
@@ -92,10 +92,10 @@
 	[spawntuning.iridium]
 		#Iridium generates no lower than X blocks above world BOTTOM
 		#Range: -64 ~ 320
-		iridium_min_y = 5
+		iridium_min_y = -64
 		#Iridium generates no higher than X blocks above world BOTTOM
 		#Range: 0 ~ 320
-		iridium_max_y = 69
+		iridium_max_y = 32
 		#Iridium deposit size(number of ores)
 		#Range: 1 ~ 64
 		iridium_deposit_size = 2
@@ -109,7 +109,7 @@
 		zinc_min_y = 5
 		#Zinc generates no higher than X blocks above world BOTTOM
 		#Range: 0 ~ 320
-		zinc_max_y = 100
+		zinc_max_y = 126
 		#Zinc deposit size(number of ores)
 		#Range: 1 ~ 64
 		zinc_deposit_size = 7
@@ -120,10 +120,10 @@
 	[spawntuning.lead]
 		#Lead generates no lower than X blocks above world BOTTOM
 		#Range: -64 ~ 320
-		lead_min_y = 5
+		lead_min_y = -32
 		#Lead generates no higher than X blocks above world BOTTOM
 		#Range: 0 ~ 320
-		lead_max_y = 95
+		lead_max_y = 56
 		#Lead deposit size(number of ores)
 		#Range: 1 ~ 64
 		lead_deposit_size = 7
@@ -134,10 +134,10 @@
 	[spawntuning.nickel]
 		#Nickel generates no lower than X blocks above world BOTTOM
 		#Range: -64 ~ 320
-		nickel_min_y = 1
+		nickel_min_y = -16
 		#Nickel generates no higher than X blocks above world BOTTOM
 		#Range: 0 ~ 320
-		nickel_max_y = 85
+		nickel_max_y = 65
 		#Nickel deposit size(number of ores)
 		#Range: 1 ~ 64
 		nickel_deposit_size = 7
@@ -148,10 +148,10 @@
 	[spawntuning.osmium]
 		#Osmium generates no lower than X blocks above world BOTTOM
 		#Range: -64 ~ 320
-		osmium_min_y = 10
+		osmium_min_y = -64
 		#Osmium generates no higher than X blocks above world BOTTOM
 		#Range: 0 ~ 320
-		osmium_max_y = 100
+		osmium_max_y = 36
 		#Osmium deposit size(number of ores)
 		#Range: 1 ~ 64
 		osmium_deposit_size = 7
@@ -162,10 +162,10 @@
 	[spawntuning.platinum]
 		#Platinum generates no lower than X blocks above world BOTTOM
 		#Range: -64 ~ 320
-		platinum_min_y = 1
+		platinum_min_y = -64
 		#Platinum generates no higher than X blocks above world BOTTOM
 		#Range: 0 ~ 320
-		platinum_max_y = 70
+		platinum_max_y = 36
 		#Platinum deposit size(number of ores)
 		#Range: 1 ~ 64
 		platinum_deposit_size = 3
@@ -176,10 +176,10 @@
 	[spawntuning.silver]
 		#Silver generates no lower than X blocks above world BOTTOM
 		#Range: -64 ~ 320
-		silver_min_y = 50
+		silver_min_y = -64
 		#Silver generates no higher than X blocks above world BOTTOM
 		#Range: 0 ~ 320
-		silver_max_y = 120
+		silver_max_y = 56
 		#Silver deposit size(number of ores)
 		#Range: 1 ~ 64
 		silver_deposit_size = 5
@@ -190,10 +190,10 @@
 	[spawntuning.tin]
 		#Tin generates no lower than X blocks above world BOTTOM
 		#Range: -64 ~ 320
-		tin_min_y = 55
+		tin_min_y = 10
 		#Tin generates no higher than X blocks above world BOTTOM
 		#Range: 0 ~ 320
-		tin_max_y = 180
+		tin_max_y = 196
 		#Tin deposit size(number of ores)
 		#Range: 1 ~ 64
 		tin_deposit_size = 7
@@ -246,10 +246,10 @@
 	[spawntuning.uranium]
 		#Uranium generates no lower than X blocks above world BOTTOM
 		#Range: -64 ~ 320
-		uranium_min_y = 1
+		uranium_min_y = -64
 		#Uranium generates no higher than X blocks above world BOTTOM
 		#Range: 0 ~ 320
-		uranium_max_y = 70
+		uranium_max_y = 16
 		#Uranium deposit size(number of ores)
 		#Range: 1 ~ 64
 		uranium_deposit_size = 4

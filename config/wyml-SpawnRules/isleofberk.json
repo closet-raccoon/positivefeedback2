@@ -1,0 +1,91 @@
+{
+	"mod": "isleofberk",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"night_fury": {
+						// Do not edit this name
+						"name": "night_fury",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"triple_stryke": {
+						// Do not edit this name
+						"name": "triple_stryke",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"gronckle": {
+						// Do not edit this name
+						"name": "gronckle",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"light_fury": {
+						// Do not edit this name
+						"name": "light_fury",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"night_light": {
+						// Do not edit this name
+						"name": "night_light",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"speed_stinger_leader": {
+						// Do not edit this name
+						"name": "speed_stinger_leader",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"stinger": {
+						// Do not edit this name
+						"name": "stinger",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"monstrous_nightmare": {
+						// Do not edit this name
+						"name": "monstrous_nightmare",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"zippleback": {
+						// Do not edit this name
+						"name": "zippleback",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"terrible_terror": {
+						// Do not edit this name
+						"name": "terrible_terror",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"skrill": {
+						// Do not edit this name
+						"name": "skrill",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"deadly_nadder": {
+						// Do not edit this name
+						"name": "deadly_nadder",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"speed_stinger": {
+						// Do not edit this name
+						"name": "speed_stinger",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			}
+		}
+	}
+}

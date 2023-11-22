@@ -3,6 +3,10 @@
 	"spawn": {
 		// Array of all categories this mod has spawns for
 		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": { }
+			},
 			"monster": {
 				// Set the limit per mob within this category
 				"spawns": {

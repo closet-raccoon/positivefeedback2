@@ -1,0 +1,8 @@
+
+#General settings
+[General]
+	#Allows flowers to be bonemealed into flower patches [Default: true]
+	flowerToPatchBonemealing = true
+	#Allows flowers patches to be bonemealed to add more flowers [Default: true]
+	patchBonemealing = true
+

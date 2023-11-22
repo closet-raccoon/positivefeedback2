@@ -1,0 +1,6 @@
+
+# Isle of Berk Main Config
+["Animation fix for shaders"]
+	# Set to true if you experience issues with animations when using shaders
+	disable_transition_ticks = false
+

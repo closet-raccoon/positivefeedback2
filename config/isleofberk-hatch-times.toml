@@ -1,0 +1,72 @@
+
+# Dragon Hatch Time Config
+["Terrible Terror"]
+	# The amount of seconds it takes for the Dragon to hatch.
+	#Range: 1 ~ 1728000
+	terrible_terror_time = 300
+
+["Speed Stinger"]
+	# The amount of seconds it takes for the Dragon to hatch.
+	#Range: 1 ~ 1728000
+	speed_stinger_time = 300
+
+["Floutscout Speed Stinger"]
+	# The amount of seconds it takes for the Dragon to hatch.
+	#Range: 1 ~ 1728000
+	floutscout_speed_stinger_time = 300
+
+["Ice Breaker Speed Stinger"]
+	# The amount of seconds it takes for the Dragon to hatch.
+	#Range: 1 ~ 1728000
+	ice_breaker_speed_stinger_time = 300
+
+["Sweet Sting Speed Stinger"]
+	# The amount of seconds it takes for the Dragon to hatch.
+	#Range: 1 ~ 1728000
+	sweet_stinger_speed_stinger_time = 300
+
+["Deadly Nadder"]
+	# The amount of seconds it takes for the Dragon to hatch.
+	#Range: 1 ~ 1728000
+	deadly_nadder_time = 600
+
+["Night Fury"]
+	# The amount of seconds it takes for the Dragon to hatch.
+	#Range: 1 ~ 1728000
+	night_fury_time = 1200
+
+["Light Fury"]
+	# The amount of seconds it takes for the Dragon to hatch.
+	#Range: 1 ~ 1728000
+	light_fury_time = 1200
+
+[Gronckle]
+	# The amount of seconds it takes for the Dragon to hatch.
+	#Range: 1 ~ 1728000
+	gronckle_time = 600
+
+["Triple Stryke"]
+	# The amount of seconds it takes for the Dragon to hatch.
+	#Range: 1 ~ 1728000
+	triple_stryke_time = 1200
+
+[Stinger]
+	# The amount of seconds it takes for the Dragon to hatch.
+	#Range: 1 ~ 1728000
+	stinger_time = 1200
+
+[Zippleback]
+	# The amount of seconds it takes for the Dragon to hatch.
+	#Range: 1 ~ 1728000
+	zippleback_time = 2400
+
+[Nightmare]
+	# The amount of seconds it takes for the Dragon to hatch.
+	#Range: 1 ~ 1728000
+	nightmare_time = 2400
+
+[Skrill]
+	# The amount of seconds it takes for the Dragon to hatch.
+	#Range: 1 ~ 1728000
+	skrill_time = 1200
+

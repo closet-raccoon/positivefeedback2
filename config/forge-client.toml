@@ -13,6 +13,6 @@
 	useCombinedDepthStencilAttachment = false
 	#Forces the use of System.nanoTime instead of glfwGetTime, as the main Util time provider
 	forceSystemNanoTime = false
-	#Enable the Forge block rendering pipeline - fixes the lighting of custom models.
-	forgeLightPipelineEnabled = true
+	#When enabled, Forge will convert discovered 'Open to LAN' IPv6 addresses to their more compact, compressed representation
+	compressLanIPv6Addresses = true
 

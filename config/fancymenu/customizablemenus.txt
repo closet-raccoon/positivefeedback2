@@ -15,3 +15,9 @@ net.minecraft.client.gui.screens.PauseScreen {
 net.minecraft.client.gui.screens.TitleScreen {
 }
 
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
+de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen {
+}
+
