@@ -1,0 +1,19 @@
+{
+	"mod": "create_sa",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"brass_drone": {
+						// Do not edit this name
+						"name": "brass_drone",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

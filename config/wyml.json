@@ -96,5 +96,7 @@
 	// The distance an water ambient creature will need to be from the player to despawn
 	"WATER_AMBIENT_DESPAWN_DISTANCE": 64,
 	// The distance an misc creature will need to be from the player to despawn
-	"MISC_CREATURES_DESPAWN_DISTANCE": 128
+	"MISC_CREATURES_DESPAWN_DISTANCE": 128,
+	// Disable counting chunk gen mobs, This will stop WYML tracking mobs added to the chunk via world gen
+	"DISABLE_COUNTING_CHUNK_GENERATED_MOBS": false
 }

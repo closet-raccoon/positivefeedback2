@@ -1,0 +1,144 @@
+{
+	"mod": "naturalist",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"fireflies": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"firefly": {
+						// Do not edit this name
+						"name": "firefly",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 8
+					}
+				}
+			},
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"rattlesnake": {
+						// Do not edit this name
+						"name": "rattlesnake",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"deer": {
+						// Do not edit this name
+						"name": "deer",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"zebra": {
+						// Do not edit this name
+						"name": "zebra",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"snail": {
+						// Do not edit this name
+						"name": "snail",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"canary": {
+						// Do not edit this name
+						"name": "canary",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"rhino": {
+						// Do not edit this name
+						"name": "rhino",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"hippo": {
+						// Do not edit this name
+						"name": "hippo",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"bluejay": {
+						// Do not edit this name
+						"name": "bluejay",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"snake": {
+						// Do not edit this name
+						"name": "snake",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"coral_snake": {
+						// Do not edit this name
+						"name": "coral_snake",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"cardinal": {
+						// Do not edit this name
+						"name": "cardinal",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"lion": {
+						// Do not edit this name
+						"name": "lion",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"vulture": {
+						// Do not edit this name
+						"name": "vulture",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"robin": {
+						// Do not edit this name
+						"name": "robin",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"caterpillar": {
+						// Do not edit this name
+						"name": "caterpillar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"boar": {
+						// Do not edit this name
+						"name": "boar",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"butterfly": {
+						// Do not edit this name
+						"name": "butterfly",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"giraffe": {
+						// Do not edit this name
+						"name": "giraffe",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"bear": {
+						// Do not edit this name
+						"name": "bear",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"elephant": {
+						// Do not edit this name
+						"name": "elephant",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			}
+		}
+	}
+}

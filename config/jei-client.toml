@@ -7,10 +7,10 @@
 	#Set low-memory mode (makes search very slow, but uses less RAM)
 	LowMemorySlowSearchEnabled = false
 	#Enable cheating items into the hotbar by using the shift+number keys.
-	CheatToHotbarUsingHotkeysEnabled = true
+	CheatToHotbarUsingHotkeysEnabled = false
 	#How items should be handed to you
 	#Allowed Values: INVENTORY, MOUSE_PICKUP
-	GiveMode = "INVENTORY"
+	GiveMode = "MOUSE_PICKUP"
 	#Max. recipe gui height
 	#Range: > 175
 	RecipeGuiHeight = 350
@@ -21,7 +21,7 @@
 
 [sorting]
 	#Sorting order for the ingredient list. Valid stages: [MOD_NAME, INGREDIENT_TYPE, ALPHABETICAL, CREATIVE_MENU, TAG, TOOL_TYPE, WEAPON_DAMAGE, ARMOR, MAX_DURABILITY]
-	IngredientSortStages = ["TAG"]
+	IngredientSortStages = ["MOD_NAME", "INGREDIENT_TYPE", "CREATIVE_MENU"]
 
 [search]
 	#Search mode for Mod Names (prefix: @)
@@ -35,10 +35,10 @@
 	TagSearchMode = "REQUIRE_PREFIX"
 	#Search mode for Creative Tab Names (prefix: %)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	CreativeTabSearchMode = "REQUIRE_PREFIX"
+	CreativeTabSearchMode = "DISABLED"
 	#Search mode for Colors (prefix: ^)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
-	ColorSearchMode = "REQUIRE_PREFIX"
+	ColorSearchMode = "DISABLED"
 	#Search mode for resources locations (prefix: &)
 	#Allowed Values: ENABLED, REQUIRE_PREFIX, DISABLED
 	ResourceLocationSearchMode = "DISABLED"
@@ -56,7 +56,7 @@
 [IngredientList]
 	#Max number of rows shown
 	#Range: 1 ~ 100
-	MaxRows = 100
+	MaxRows = 99
 	#Max number of columns shown
 	#Range: 4 ~ 100
 	MaxColumns = 9

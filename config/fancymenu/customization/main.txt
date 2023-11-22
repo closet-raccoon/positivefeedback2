@@ -19,40 +19,40 @@ customization {
 }
 
 customization {
-  identifier = %id=604346%
-  action = hidebutton
+  identifier = %id=0%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_multiplayer_button
+  x = 103
+  action = movebutton
+  y = 0
+}
+
+customization {
+  identifier = %id=0%
+  width = 98
+  action = resizebutton
+  height = 20
 }
 
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 0
+  x = -1
   action = movebutton
   y = 24
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 204
-  action = movebutton
-  y = 48
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 98
+  action = resizebutton
+  height = 20
 }
 
 customization {
   identifier = %id=376322%
   action = hidebutton
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  orientation = element
-  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
-  x = 102
-  action = movebutton
-  y = 48
 }
 
 customization {
@@ -72,20 +72,40 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 204
+  action = movebutton
+  y = 48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = element
+  orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
+  x = 102
+  action = movebutton
+  y = 48
+}
+
+customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
   orientation = element
   orientation_element = vanillabtn:button_compatibility_id:mc_titlescreen_singleplayer_button
   x = -23
   action = movebutton
   y = 48
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
-  orientation = mid-centered
-  x = -100
-  action = movebutton
-  y = -84
 }
 
 customization {
@@ -98,23 +118,86 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  action = hidebutton
-}
-
-customization {
   identifier = %id=376346%
   action = hidebutton
 }
 
 customization {
+  orientation = top-left
+  hidden = false
+  x = 346
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = c80343a6-7c44-4bcf-8b37-b806437dcc4b1656772994620
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 497ce1bc-2a18-4644-bade-c6ca3a5d635e1656772994623
+  y = 498
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 731
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = d0f5703b-bc20-4d94-b4c9-eef690e39d1c1656772994623
+  y = 520
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 583
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = c9995497-c375-4630-8cfb-fd54b39d722d1656772994623
+  y = 235
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = fe23d736-c0e1-4277-aae1-089f640e1f621656772994623
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = e6ee68b8-87c0-4e3a-bd1e-adaa1a351e6d1656772994623
+  y = 0
+  height = 30
+}
+
+customization {
   path = kubejs/assets/custom/assets/minecraft.png
   orientation = top-centered
-  x = -202
+  x = -200
   width = 404
   action = addtexture
   actionid = 824dbe0e-346a-41e9-a00f-9eb2528441331654013344028
-  y = 22
+  y = 28
   height = 114
 }
 
@@ -122,11 +205,12 @@ customization {
   orientation = element
   basecolor = #77ffee
   shadow = true
-  splashfilepath = kubejs\assets\custom\assets\splashes.txt
+  splashfilepath = kubejs/assets/custom/assets/splashes.txt
   rotation = -10.0
   scale = 1.3
   refresh = false
   bouncing = true
+  vanilla-like = false
   orientation_element = 824dbe0e-346a-41e9-a00f-9eb2528441331654013344028
   x = 273
   actionid = 3e5cc0b8-b467-461a-a3b2-3e8fb8a24ab91654024308298

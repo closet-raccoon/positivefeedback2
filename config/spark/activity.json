@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "ClosetRedPanda",
+      "uniqueId": "f2357dcf-80a0-4f52-a6ce-b0c04730a33c"
+    },
+    "time": 1700474340733,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/QBiOArYmki"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ClosetRedPanda",
+      "uniqueId": "f2357dcf-80a0-4f52-a6ce-b0c04730a33c"
+    },
+    "time": 1700474082538,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/XuVaBIDC70"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ClosetRedPanda",
+      "uniqueId": "f2357dcf-80a0-4f52-a6ce-b0c04730a33c"
+    },
+    "time": 1700473967235,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/PsknRFLGlk"
+    }
+  }
+]
